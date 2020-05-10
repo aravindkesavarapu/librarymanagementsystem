@@ -38,52 +38,5 @@ public class BookDetails implements Serializable {
 	@Column
 	private String bookCategory;
 
-	public int getBookId() {
-		return bookId;
-	}
-
-	public void setBookId(int bookId) {
-		this.bookId = bookId;
-	}
-
-	public String getBookName() {
-		return bookName;
-	}
-
-	public void setBookName(String bookName) {
-		this.bookName = bookName;
-	}
-
-	public String getAuthorName() {
-		return authorName;
-	}
-
-	public void setAuthorName(String authorName) {
-		this.authorName = authorName;
-	}
-
-	public String getPublisherName() {
-		return publisherName;
-	}
-
-	public void setPublisherName(String publisherName) {
-		this.publisherName = publisherName;
-	}
-
-	public int getCopies() {
-		return copies;
-	}
-
-	public void setCopies(int copies) {
-		this.copies = copies;
-	}
-
-	public String getBookCategory() {
-		return bookCategory;
-	}
-
-	public void setBookCategory(String bookCategory) {
-		this.bookCategory = bookCategory;
-	}
-
+	
 }

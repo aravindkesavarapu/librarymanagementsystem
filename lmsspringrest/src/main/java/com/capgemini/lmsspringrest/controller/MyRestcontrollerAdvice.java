@@ -1,4 +1,4 @@
-package com.capgemini.lmsspringrest.controller;
+	package com.capgemini.lmsspringrest.controller;
 
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

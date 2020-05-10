@@ -32,44 +32,4 @@ public class RequestDetails implements Serializable {
 	@Column
 	private String bookName;
 
-	public int getId() {
-		return id;
 	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	public int getuId() {
-		return uId;
-	}
-
-	public void setuId(int uId) {
-		this.uId = uId;
-	}
-
-	public int getBookId() {
-		return bookId;
-	}
-
-	public void setBookId(int bookId) {
-		this.bookId = bookId;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	public String getBookName() {
-		return bookName;
-	}
-
-	public void setBookName(String bookName) {
-		this.bookName = bookName;
-	}
-
-}
